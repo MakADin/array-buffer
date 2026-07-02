@@ -1,0 +1,37 @@
+{
+  "name": "regex",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/MakADin/regex#readme",
+  "bugs": {
+    "url": "https://github.com/MakADin/regex/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakADin/regex.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "^8.0.1",
+    "@babel/core": "^8.0.1",
+    "@babel/eslint-parser": "^8.0.1",
+    "@babel/preset-env": "^8.0.2",
+    "@eslint/js": "^9.39.4",
+    "babel-jest": "^30.4.1",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^17.6.0",
+    "jest": "^30.4.2"
+  },
+  "allowScripts": {
+    "unrs-resolver@1.12.2": true
+  }
+}
