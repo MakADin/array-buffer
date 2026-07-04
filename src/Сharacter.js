@@ -85,6 +85,14 @@ export class MagicCharacter extends Character {
     }
     return Math.max(0, Math.round(currentAttack));
   }
+
+  levelUp() {
+    const oldBaseAttack = this._baseAttack;
+
+    super.levelUp();
+
+    this._baseAttack = Math.round(oldBaseAttack * 1.2);
+  }
 }
 
 export class Magician extends MagicCharacter {
